@@ -29,4 +29,3 @@ COMMA: ',';
 LINE_COMMENT: '//' ~[\r\n]* -> skip;
 BLOCK_COMMENT: '/*' .*? '*/' -> skip;
 WS: [\t\r\n ] -> skip;
-
